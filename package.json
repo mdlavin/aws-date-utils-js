@@ -1,0 +1,35 @@
+{
+  "name": "aws-date-utils-js",
+  "version": "1.0.0",
+  "description": "Utilities for parsing and createing AWSDate strings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pretty-quick --staged",
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "aws",
+    "date",
+    "parse"
+  ],
+  "author": "Matt Lavin <matt.lavin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.17.17",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.11.0"
+  }
+}
